@@ -11,7 +11,7 @@ const Categories = lazy(() => import("./components/categories/Categories"));
 const HowItWorks = lazy(() => import("./components/how-it-works/HowItWorks"));
 const Contact = lazy(() => import("./components/contact/Contact"));
 const StarRating = lazy(() => import("./components/star-rating/StarRating"));
-const FAQ = lazy(() => import("./components/faq/Faq"));
+const FAQ = lazy(() => import("./components/faq/FAQ"));
 const Footer = lazy(() => import("./components/footer/Footer"));
 const Description = lazy(() => import("./components/description/Description"));
 const Recently = lazy(() => import("./components/recently/Recently"));
