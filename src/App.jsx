@@ -11,7 +11,7 @@ const Categories = lazy(() => import("./components/categories/Categories"));
 const HowItWorks = lazy(() => import("./components/how-it-works/HowItWorks"));
 const Contact = lazy(() => import("./components/contact/Contact"));
 const StarRating = lazy(() => import("./components/star-rating/StarRating"));
-const FAQ = lazy(() => import("./components/faq/FAQ"));
+const Faq = lazy(() => import("./components/faq/Faq"));
 const Footer = lazy(() => import("./components/footer/Footer"));
 const Description = lazy(() => import("./components/description/Description"));
 const Recently = lazy(() => import("./components/recently/Recently"));
@@ -33,7 +33,7 @@ function App() {
           <Route path="/HowItWorks" element={<HowItWorks />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/star-rating" element={<StarRating />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/faq" element={<Faq />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/Account" element={<Account />} />
           <Route path="/recently" element={<Recently />} />

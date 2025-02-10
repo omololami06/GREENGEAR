@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./faq.scss";
 
-const FAQ = () => {
+const Faq = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const questionsAnswers = [
@@ -97,4 +97,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;
